@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            All images from the URL
+        </title>
+    </head>
+    <body>
+        <b>
+            <p style="color: red;">
+                URL: {{ url }}
+                DEPTH: {{ depth }}
+            </p>
+        </b>
+        {% for i in images %}
+            <p>{{ i }}</p>
+            <img width="200" height="auto" src="{{ i }}" >
+        {% endfor %}
+    </body>
+</html>
