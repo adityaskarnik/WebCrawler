@@ -25,7 +25,7 @@ SECRET_KEY = 'mfrvrs#$^xd-f$3ah!f=*yqh7w4*+pfh1v@q1)*l%62&@y622!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1','0.0.0.0', '3.226.195.74']
 
 
 # Application definition
